@@ -44,26 +44,47 @@ Optimization-Homework-Simulations/
 │   │   │   ├── index.html        (HTML write-up for the exercise: description, code, results)
 
 │   │   │   ├── code_ex1.py       (Python code for the exercise)
+
 │   │   │   ├── code_ex1.m        (MATLAB code for the exercise)
+
 │   │   │   ├── output_ex1.png    (Image output from the code)
+
 │   │   │   └── figure_ex1.fig    (MATLAB .fig file)
+
 │   │   └── ... (Other exercises, each in its own sub-folder)
+
 │   │
+
 │   ├── Simulations/
+
 │   │   ├── Sim1_ScenarioName/    (Folder for a specific simulation, e.g., Sim1_ConstrainedOpt)
+
 │   │   │   ├── index.html        (HTML write-up for the simulation)
+
 │   │   │   ├── code_sim1.py      (Python code for the simulation)
+
 │   │   │   ├── code_sim1.m       (MATLAB code for the simulation)
+
 │   │   │   ├── output_sim1.png   (Image output from the simulation)
+
 │   │   │   └── figure_sim1.fig   (MATLAB .fig file)
+
 │   │   └── ... (Other simulations, each in its own sub-folder)
+
 │   │
+
 │   └── README_Chapter01.md (Optional: Specific notes for Chapter 1)
+
 │
+
 ├── Chapter02/
+
 │   └── ... (Similar structure for subsequent chapters)
+
 │
+
 └── assets/  (Optional: Global assets like shared CSS or images)
+
 └── css/
 
 **Key points about the structure:**
@@ -100,37 +121,68 @@ Optimization-Homework-Simulations/
 本仓库按章节组织，以与课程结构保持一致。以下是总体概览：
 
 最优化方法-习题与仿真/
+
 ├── .gitignore
 ├── README.md  (当前文件)
+
 │
+
 ├── Chapter01/ (第一章)
+
 │   ├── Notes/ (笔记)
+
 │   │   └── notes_chapter01.html  (第一章学习笔记)
+
 │   │
+
 │   ├── Exercises/ (课后习题)
+
 │   │   ├── Ex1_主题名称/         (单个练习的文件夹，例如：Ex1_梯度下降法)
+
 │   │   │   ├── index.html        (该练习的HTML说明文档：问题描述、代码、结果等)
+
 │   │   │   ├── code_ex1.py       (该练习的Python代码)
+
 │   │   │   ├── code_ex1.m        (该练习的MATLAB代码)
+
 │   │   │   ├── output_ex1.png    (代码运行输出的图片)
+
 │   │   │   └── figure_ex1.fig    (MATLAB .fig 文件)
+
 │   │   └── ... (其他练习，每个在各自的子文件夹中)
+
 │   │
+
 │   ├── Simulations/ (实例仿真)
+
 │   │   ├── Sim1_场景名称/        (单个仿真的文件夹，例如：Sim1_约束优化)
+
 │   │   │   ├── index.html        (该仿真的HTML说明文档)
+
 │   │   │   ├── code_sim1.py      (该仿真的Python代码)
+
 │   │   │   ├── code_sim1.m       (该仿真的MATLAB代码)
+
 │   │   │   ├── output_sim1.png   (代码运行输出的图片)
+
 │   │   │   └── figure_sim1.fig   (MATLAB .fig 文件)
+
 │   │   └── ... (其他仿真，每个在各自的子文件夹中)
+
 │   │
+
 │   └── README_Chapter01.md (可选：第一章内容的特定说明)
+
 │
+
 ├── Chapter02/ (第二章)
+
 │   └── ... (后续章节结构类似)
+
 │
+
 └── assets/  (可选：全局资源，如共享的CSS文件或图片)
+
 └── css/
 
 **关于结构的关键点：**
