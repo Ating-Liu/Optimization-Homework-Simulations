@@ -24,15 +24,25 @@ The repository is organized by chapters to align with the course structure. Here
 Optimization-Homework-Simulations/
 
 ├── .gitignore
+
 ├── README.md  (This file)
+
 │
+
 ├── Chapter01/
+
 │   ├── Notes/
+
 │   │   └── notes_chapter01.html  (Learning notes for Chapter 1)
+
 │   │
+
 │   ├── Exercises/
+
 │   │   ├── Ex1_TopicName/        (Folder for a specific exercise, e.g., Ex1_GradientDescent)
+
 │   │   │   ├── index.html        (HTML write-up for the exercise: description, code, results)
+
 │   │   │   ├── code_ex1.py       (Python code for the exercise)
 │   │   │   ├── code_ex1.m        (MATLAB code for the exercise)
 │   │   │   ├── output_ex1.png    (Image output from the code)
