@@ -21,70 +21,38 @@ Primary technologies and file types used:
 
 The repository is organized by chapters to align with the course structure. Here's a general overview:
 
-Optimization-Homework-Simulations/
-
+- Optimization-Homework-Simulations/
 ├── .gitignore
-
 ├── README.md  (This file)
-
 │
-
 ├── Chapter01/
-
 │   ├── Notes/
-
 │   │   └── notes_chapter01.html  (Learning notes for Chapter 1)
-
 │   │
-
 │   ├── Exercises/
-
 │   │   ├── Ex1_TopicName/        (Folder for a specific exercise, e.g., Ex1_GradientDescent)
-
 │   │   │   ├── index.html        (HTML write-up for the exercise: description, code, results)
-
 │   │   │   ├── code_ex1.py       (Python code for the exercise)
-
 │   │   │   ├── code_ex1.m        (MATLAB code for the exercise)
-
 │   │   │   ├── output_ex1.png    (Image output from the code)
-
 │   │   │   └── figure_ex1.fig    (MATLAB .fig file)
-
 │   │   └── ... (Other exercises, each in its own sub-folder)
-
 │   │
-
 │   ├── Simulations/
-
 │   │   ├── Sim1_ScenarioName/    (Folder for a specific simulation, e.g., Sim1_ConstrainedOpt)
-
 │   │   │   ├── index.html        (HTML write-up for the simulation)
-
 │   │   │   ├── code_sim1.py      (Python code for the simulation)
-
 │   │   │   ├── code_sim1.m       (MATLAB code for the simulation)
-
 │   │   │   ├── output_sim1.png   (Image output from the simulation)
-
 │   │   │   └── figure_sim1.fig   (MATLAB .fig file)
-
 │   │   └── ... (Other simulations, each in its own sub-folder)
-
 │   │
-
 │   └── README_Chapter01.md (Optional: Specific notes for Chapter 1)
-
 │
-
 ├── Chapter02/
-
 │   └── ... (Similar structure for subsequent chapters)
-
 │
-
 └── assets/  (Optional: Global assets like shared CSS or images)
-
 └── css/
 
 **Key points about the structure:**
