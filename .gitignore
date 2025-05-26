@@ -172,3 +172,27 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# MATLAB
+# Compiled MEX files
+*.mex*
+# MATLAB backup files
+*.asv
+*.bak
+# FIG backup files
+*.fig~
+# Simulink model cache and code generation
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*.rwd
+# MATLAB autosave files (often .asv is enough)
+# *.autosave
+# MATLAB Drive related
+.matlab_drive_common/
+# MATLAB crash dump files
+matlab_crash_dump.*
+# MATLAB preferences, history, etc. (usually not shared unless specific reason)
+# .matlab/
+# MLHISTORY. ascendent
+# matlab.prf
