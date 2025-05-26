@@ -22,6 +22,7 @@ Primary technologies and file types used:
 The repository is organized by chapters to align with the course structure. Here's a general overview:
 
 Optimization-Homework-Simulations/
+
 ├── .gitignore
 ├── README.md  (This file)
 │
